@@ -4,7 +4,7 @@ A RESTful API that analyzes numbers and returns their mathematical properties al
 
 ## 🚀 Live API
 
-**Base URL:** `https://your-deployed-app.herokuapp.com` (Replace with your actual deployment URL)
+**Base URL:** `https://flask-number-classification-api.onrender.com` (Replace with your actual deployment URL)
 
 ## 📋 Features
 
@@ -95,26 +95,26 @@ A perfect number is a positive integer that is equal to the sum of its proper po
 
 ```bash
 # Test Armstrong number
-curl "https://your-api-url.com/api/classify-number?number=371"
+curl "https://flask-number-classification-api.onrender.com/api/classify-number?number=371"
 
 # Test prime number
-curl "https://your-api-url.com/api/classify-number?number=17"
+curl "https://flask-number-classification-api.onrender.com/api/classify-number?number=17"
 
 # Test perfect number
-curl "https://your-api-url.com/api/classify-number?number=28"
+curl "https://flask-number-classification-api.onrender.com/api/classify-number?number=28"
 
 # Test regular number
-curl "https://your-api-url.com/api/classify-number?number=42"
+curl "https://flask-number-classification-api.onrender.com/api/classify-number?number=42"
 ```
 
 ### Invalid Requests
 
 ```bash
 # Non-numeric input
-curl "https://your-api-url.com/api/classify-number?number=abc"
+curl "https://flask-number-classification-api.onrender.com/api/classify-number?number=abc"
 
 # Missing parameter
-curl "https://your-api-url.com/api/classify-number"
+curl "https://flask-number-classification-api.onrender.com/api/classify-number"
 ```
 
 ## 🚀 Local Development
@@ -128,8 +128,8 @@ curl "https://your-api-url.com/api/classify-number"
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/math-properties-api.git
-   cd math-properties-api
+   git clone https://github.com/onomeakpobaro/flask_number_classification_api.git
+   cd flask_number_classification_api
    ```
 
 2. **Create virtual environment**
@@ -168,20 +168,20 @@ curl "https://your-api-url.com/api/classify-number"
 
 ```bash
 # Test various number types
-curl "https://your-api-url.com/api/classify-number?number=1"      # Neither prime nor perfect
-curl "https://your-api-url.com/api/classify-number?number=2"      # Prime
-curl "https://your-api-url.com/api/classify-number?number=6"      # Perfect
-curl "https://your-api-url.com/api/classify-number?number=153"    # Armstrong
-curl "https://your-api-url.com/api/classify-number?number=1634"   # Armstrong (4-digit)
+curl "https://flask-number-classification-api.onrender.com/api/classify-number?number=1"      # Neither prime nor perfect
+curl "https://flask-number-classification-api.onrender.com/api/classify-number?number=2"      # Prime
+curl "https://flask-number-classification-api.onrender.com/api/classify-number?number=6"      # Perfect
+curl "https://flask-number-classification-api.onrender.com/api/classify-number?number=153"    # Armstrong
+curl "https://flask-number-classification-api.onrender.com/api/classify-number?number=1634"   # Armstrong (4-digit)
 ```
 
 ### Error Testing
 
 ```bash
 # Test error handling
-curl "https://your-api-url.com/api/classify-number?number=abc"    # Invalid input
-curl "https://your-api-url.com/api/classify-number?number="       # Empty parameter
-curl "https://your-api-url.com/api/classify-number"              # Missing parameter
+curl "https://flask-number-classification-api.onrender.com/api/classify-number?number=abc"    # Invalid input
+curl "https://flask-number-classification-api.onrender.com/api/classify-number?number="       # Empty parameter
+curl "https://flask-number-classification-api.onrender.com/api/classify-number"              # Missing parameter
 ```
 
 ## 📊 Performance
